@@ -1,0 +1,46 @@
+# Tmux status line with gruvbox dark colors.
+# Palette: https://github.com/morhetz/gruvbox#palette
+
+# Status bar colors.
+set-option -g status-fg colour223 # fg1
+set-option -g status-bg colour235 # bg0
+
+# Window list colors.
+set-window-option -g window-status-fg colour223 # fg1
+set-window-option -g window-status-bg colour239 # bg2
+set-window-option -g window-status-attr dim
+set-window-option -g window-status-current-fg colour235 # bg0
+set-window-option -g window-status-current-bg colour246 # fg4
+set-window-option -g window-status-current-attr bright
+set-window-option -g window-status-activity-fg colour250 # fg1
+set-window-option -g window-status-activity-bg colour241 # bg3
+
+# Pane divider colors.
+set-option -g pane-border-fg colour239 # bg2
+set-option -g pane-border-bg colour235 # bg0
+set-option -g pane-active-border-fg colour142 # brightgreen
+set-option -g pane-active-border-bg colour235 # bg0
+
+# Command-line messages colors.
+set-option -g message-fg colour223 # fg1
+set-option -g message-bg colour235 # bg0
+set-option -g message-attr bright
+
+# Set left and right sections.
+set-option -g status-left-length 20
+set-option -g status-left "#[fg=colour235,bg=colour246] #S "
+set-option -g status-right "#[fg=colour235,bg=colour246] #(whoami)@#H "
+
+# Set format of items in window list.
+setw -g window-status-format " #I:#W#F "
+setw -g window-status-current-format " #I:#W#F "
+
+# Set alignment of windows list.
+set-option -g status-justify centre
+
+# Identify activity in non-current windows.
+set-window-option -g monitor-activity on
+set-option -g visual-activity on
+
+# Set UTF-8 support in a status line.
+set-option -g status-utf8 on

@@ -2,8 +2,8 @@
 
 CURRENT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-theme_option="@colors-solarized"
-default_theme="256"
+theme_option="@tmux-statusline-theme"
+default_theme="gruvbox-dark"
 
 get_tmux_option() {
 	local option="$1"
@@ -18,6 +18,7 @@ get_tmux_option() {
 
 main() {
 	local theme="$(get_tmux_option "$theme_option" "$default_theme")"
-	tmux source-file "$CURRENT_DIR/tmuxcolors-${theme}.conf"
+	tmux source-file "$CURRENT_DIR/themes/${theme}.tmuxtheme"
 }
+
 main
