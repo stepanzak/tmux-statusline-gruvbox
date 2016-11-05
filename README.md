@@ -12,7 +12,7 @@ on popular terminal color themes:
 -   A tmux gruvbox theme using Pavel Pertsev's [Gruvbox color
     scheme](https://github.com/morhetz/gruvbox-contrib).
 
-Now only two themes are implemented: solarized-light and gruvbox-dark.
+Now only three themes are implemented: solarized-light, solarized-dark, and gruvbox-dark.
 
 
 ## Installation
