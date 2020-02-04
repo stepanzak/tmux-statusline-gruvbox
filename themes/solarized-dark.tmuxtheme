@@ -31,6 +31,3 @@ set-option -g status-justify centre
 # Identify activity in non-current windows.
 set-window-option -g monitor-activity on
 set-option -g visual-activity on
-
-# Set UTF-8 support in a status line.
-set-option -g status-utf8 on
