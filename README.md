@@ -21,7 +21,7 @@ Now only three themes are implemented: solarized-light, solarized-dark, and gruv
 
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
-    set -g @plugin 'kabanovdmitry/tmux-statusline-themes'
+    set -g @plugin 'dmitry-kabanov/tmux-statusline-themes'
 
 Hit `prefix + I` (it is capital `i`) to fetch the plugin and source it. The
 plugin should now be working.
