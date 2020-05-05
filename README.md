@@ -57,4 +57,4 @@ Choose theme by adding one of the options to `.tmux.conf`:
 
 ## License
 
-This repo uses [MIT license](LICENSE.md).
+This repo uses [MIT license](LICENSE).
