@@ -11,6 +11,13 @@ on popular terminal color themes:
 
 Now only three themes are implemented: solarized-light, solarized-dark, and gruvbox-dark.
 
+This is how Gruvbox dark theme looks:
+
+![Appearance of the Gruvbox-dark tmux theme](_assets/gruvbox-dark.png "Appearance of the Gruvbox dark tmux theme")
+
+
+
+
 
 ## Installation
 
