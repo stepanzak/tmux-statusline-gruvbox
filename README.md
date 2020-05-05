@@ -1,9 +1,6 @@
-# tmux-statusline-themes
+# Tmux statusline themes
 
-
-## Description
-
-This repository contains themes for `tmux` status line. These themes are based
+This repository contains themes for `tmux` statusline. These themes are based
 on popular terminal color themes:
 
 -   A tmux solarized theme using Ethan Schoonover’s [Solarized color
@@ -23,13 +20,7 @@ Add plugin to the list of TPM plugins in `.tmux.conf`:
 
     set -g @plugin 'dmitry-kabanov/tmux-statusline-themes'
 
-Hit `prefix + I` (it is capital `i`) to fetch the plugin and source it. The
-plugin should now be working.
-
-Theme can be chosen via `.tmux.conf` option:
-
-- `set -g @tmux-statusline-theme 'gruvbox-dark'` (the default),
-- `set -g @tmux-statusline-theme 'solarized-light'`.
+Hit `prefix + I` to fetch the plugin and source it.
 
 ### Manual installation
 
@@ -46,3 +37,17 @@ Here I assume that you want to install themes into directory
     of `tmux`:
 
         tmux source-file $HOME/.tmux/tmux-statusline-themes/themes/<theme>.tmuxtheme
+
+
+## Usage
+
+Choose theme by adding one of the options to `.tmux.conf`:
+
+- `set -g @tmux-statusline-theme 'gruvbox-dark'` (the default),
+- `set -g @tmux-statusline-theme 'solarized-light'`,
+- `set -g @tmux-statusline-theme 'solarized-dark'`.
+
+
+## License
+
+This repo uses [MIT license](LICENSE.md).
