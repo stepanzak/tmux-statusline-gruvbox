@@ -4,12 +4,9 @@ This repository contains themes for `tmux` statusline. These themes are based
 on popular terminal color themes:
 
 -   [Ayu](https://github.com/ayu-theme) by Ike Ku and Konstantin Pschera
-
--   A tmux solarized theme using Ethan Schoonover’s [Solarized color
-    scheme](http://ethanschoonover.com/solarized).
-
--   A tmux gruvbox theme using Pavel Pertsev's [Gruvbox color
-    scheme](https://github.com/morhetz/gruvbox-contrib).
+-   [Gruvbox color scheme](https://github.com/morhetz/gruvbox-contrib)
+    by Pavel Pertsev
+-   [Solarized](http://ethanschoonover.com/solarized) by Ethan Schoonover
 
 The following themes are implemented:
 - ayu-light
@@ -20,9 +17,6 @@ The following themes are implemented:
 This is how Gruvbox dark theme looks:
 
 ![Appearance of the Gruvbox-dark tmux theme](_assets/gruvbox-dark.png "Appearance of the Gruvbox dark tmux theme")
-
-
-
 
 
 ## Installation
