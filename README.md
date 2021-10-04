@@ -7,12 +7,15 @@ on popular terminal color themes:
 -   [Gruvbox color scheme](https://github.com/morhetz/gruvbox-contrib)
     by Pavel Pertsev
 -   [Solarized](http://ethanschoonover.com/solarized) by Ethan Schoonover
+-   [Two Firewatch](https://github.com/rakr/vim-two-firewatch) by
+    Ramzi Akremi 
 
-The following themes are implemented:
+The following light and dark options are implemented:
 - ayu-light
 - gruvbox-dark
 - solarized-light
-- solarized-dark.
+- solarized-dark
+- two-firewatch-dark
 
 This is how Gruvbox dark theme looks:
 
@@ -53,7 +56,8 @@ Choose theme by adding one of the options to `.tmux.conf`:
 - `set -g @tmux-statusline-theme 'ayu-light'`,
 - `set -g @tmux-statusline-theme 'gruvbox-dark'` (the default),
 - `set -g @tmux-statusline-theme 'solarized-light'`,
-- `set -g @tmux-statusline-theme 'solarized-dark'`.
+- `set -g @tmux-statusline-theme 'solarized-dark'`,
+- `set -g @tmux-statusline-theme 'two-firewatch-dark'`.
 
 
 ## License
