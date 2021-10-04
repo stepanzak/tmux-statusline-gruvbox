@@ -17,7 +17,7 @@ The following light and dark options are implemented:
 - solarized-dark
 - two-firewatch-dark
 
-This is how Gruvbox dark theme looks:
+This is what Gruvbox dark theme looks like:
 
 ![Appearance of the Gruvbox-dark tmux theme](_assets/gruvbox-dark.png "Appearance of the Gruvbox dark tmux theme")
 
