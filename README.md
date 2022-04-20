@@ -13,6 +13,7 @@ on popular terminal color themes:
 The following light and dark options are implemented:
 - ayu-light
 - gruvbox-dark
+- gruvbox-light-hard
 - solarized-light
 - solarized-dark
 - two-firewatch-dark
