@@ -3,20 +3,23 @@
 This repository contains themes for `tmux` statusline. These themes are based
 on popular terminal color themes:
 
--   A tmux solarized theme using Ethan Schoonover’s [Solarized color
-    scheme](http://ethanschoonover.com/solarized).
+-   [Ayu](https://github.com/ayu-theme) by Ike Ku and Konstantin Pschera
+-   [Gruvbox color scheme](https://github.com/morhetz/gruvbox-contrib)
+    by Pavel Pertsev
+-   [Solarized](http://ethanschoonover.com/solarized) by Ethan Schoonover
+-   [Two Firewatch](https://github.com/rakr/vim-two-firewatch) by
+    Ramzi Akremi 
 
--   A tmux gruvbox theme using Pavel Pertsev's [Gruvbox color
-    scheme](https://github.com/morhetz/gruvbox-contrib).
+The following light and dark options are implemented:
+- ayu-light
+- gruvbox-dark
+- solarized-light
+- solarized-dark
+- two-firewatch-dark
 
-Now only three themes are implemented: solarized-light, solarized-dark, and gruvbox-dark.
-
-This is how Gruvbox dark theme looks:
+This is what Gruvbox dark theme looks like:
 
 ![Appearance of the Gruvbox-dark tmux theme](_assets/gruvbox-dark.png "Appearance of the Gruvbox dark tmux theme")
-
-
-
 
 
 ## Installation
@@ -50,9 +53,11 @@ Here I assume that you want to install themes into directory
 
 Choose theme by adding one of the options to `.tmux.conf`:
 
+- `set -g @tmux-statusline-theme 'ayu-light'`,
 - `set -g @tmux-statusline-theme 'gruvbox-dark'` (the default),
 - `set -g @tmux-statusline-theme 'solarized-light'`,
-- `set -g @tmux-statusline-theme 'solarized-dark'`.
+- `set -g @tmux-statusline-theme 'solarized-dark'`,
+- `set -g @tmux-statusline-theme 'two-firewatch-dark'`.
 
 
 ## License
