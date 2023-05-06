@@ -26,6 +26,7 @@ Install it the same way:
 
     set -g @plugin 'stepanzak/tmux-statusline-gruvbox'
 
+**Please note that tmux-statusline-gruvbox must be loaded AFTER tmux-statusline-gruvbox.**
 Hit `prefix + I` to fetch the plugin and source it.
 
 ## License
