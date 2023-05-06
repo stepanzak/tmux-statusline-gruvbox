@@ -21,6 +21,10 @@ If you use this, you should star his [repo](https://github.com/dmitry-kabanov/tm
 Add plugin to the list of TPM plugins in `.tmux.conf`:
 
     set -g @plugin 'stepanzak/tmux-statusline-gruvbox'
+This also requires [Tmux Mode Indicator](https://github.com/MunifTanjim/tmux-mode-indicator).
+Install it the same way:
+
+    set -g @plugin 'stepanzak/tmux-statusline-gruvbox'
 
 Hit `prefix + I` to fetch the plugin and source it.
 

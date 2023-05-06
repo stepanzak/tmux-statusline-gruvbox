@@ -27,7 +27,7 @@ tmux set-option -g message-style bright
 # Set left and right sections.
 tmux set-option -g status-left-length 20
 tmux set-option -g status-left "#[fg=colour235,bg=colour246] #S "
-tmux set-option -g status-right "#[fg=colour235,bg=colour246] #(whoami)@#H "
+tmux set-option -g status-right "#[fg=colour235,bg=colour246] #{tmux_mode_indicator} "
 
 # Set format of items in window list.
 tmux setw -g window-status-format " #I:#W#F "
