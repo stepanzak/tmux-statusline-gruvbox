@@ -27,7 +27,7 @@ tmux set-option -g message-style bright
 # set Tmux Mode Indicator styles to Gruvbox colors
 
 # style values for prefix prompt
-tmux set-option -g @mode_indicator_prefix_mode_style 'bg=#458588,fg=colour235'
+tmux set-option -g @mode_indicator_prefix_mode_style 'bg=#d65d0e,fg=colour235'
 
 # style values for copy prompt
 tmux set-option -g @mode_indicator_copy_mode_style 'bg=#d79921,fg=colour235'
