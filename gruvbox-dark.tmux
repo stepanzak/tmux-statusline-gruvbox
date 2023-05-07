@@ -27,16 +27,16 @@ tmux set-option -g message-style bright
 # set Tmux Mode Indicator styles to Gruvbox colors
 
 # style values for prefix prompt
-tmux set-option -g @mode_indicator_prefix_mode_style 'bg=white,fg=black'
+tmux set-option -g @mode_indicator_prefix_mode_style 'bg=#458588,fg=colour235'
 
 # style values for copy prompt
-tmux set-option -g @mode_indicator_copy_mode_style 'bg=yellow,fg=black'
+tmux set-option -g @mode_indicator_copy_mode_style 'bg=#d79921,fg=colour235'
 
 # style values for sync prompt
-tmux set-option -g @mode_indicator_sync_mode_style 'bg=red,fg=black'
+tmux set-option -g @mode_indicator_sync_mode_style 'bg=#cc241d,fg=colour235'
 
 # style values for empty prompt
-tmux set-option -g @mode_indicator_empty_mode_style 'bg=cyan,fg=black'
+tmux set-option -g @mode_indicator_empty_mode_style 'bg=colour246,fg=colour235'
 
 # Set left and right sections.
 tmux set-option -g status-left-length 20
