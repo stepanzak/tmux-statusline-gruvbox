@@ -24,6 +24,19 @@ tmux set-option -g message-style fg=colour223 # fg1
 tmux set-option -g message-style bg=colour235 # bg0
 tmux set-option -g message-style bright
 
+# prompt to display when tmux prefix key is pressed
+tmux set-option -g @mode_indicator_prefix_prompt ' WAIT '
+
+# prompt to display when tmux is in copy mode
+tmux set-option -g @mode_indicator_copy_prompt ' COPY '
+
+# prompt to display when tmux has synchronized panes
+tmux set-option -g @mode_indicator_sync_prompt ' SYNC '
+
+# prompt to display when tmux is in normal mode
+tmux set-option -g @mode_indicator_empty_prompt ' 👁️👄 👁️ '
+
+
 # set Tmux Mode Indicator styles to Gruvbox colors
 
 # style values for prefix prompt
