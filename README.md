@@ -24,9 +24,9 @@ Add plugin to the list of TPM plugins in `.tmux.conf`:
 This also requires [Tmux Mode Indicator](https://github.com/MunifTanjim/tmux-mode-indicator).
 Install it the same way:
 
-    set -g @plugin 'stepanzak/tmux-statusline-gruvbox'
+    set -g @plugin 'MunifTanjim/tmux-mode-indicator'
 
-**Please note that tmux-statusline-gruvbox must be loaded AFTER tmux-statusline-gruvbox.**
+**Please note that tmux-mode-indicator must be loaded AFTER tmux-statusline-gruvbox.**
 Hit `prefix + I` to fetch the plugin and source it.
 
 ## License
