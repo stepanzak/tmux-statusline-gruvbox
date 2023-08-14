@@ -34,7 +34,7 @@ tmux set-option -g @mode_indicator_copy_prompt ' COPY 󰆏 '
 tmux set-option -g @mode_indicator_sync_prompt ' SYNC  '
 
 # prompt to display when tmux is in normal mode
-tmux set-option -g @mode_indicator_empty_prompt ' I 󰣐   '
+tmux set-option -g @mode_indicator_empty_prompt '  I󰣐   '
 # IMPORTANT: if you can't see some characters, download some nerd font
 
 
