@@ -29,6 +29,10 @@ Install it the same way:
 **Please note that tmux-mode-indicator must be loaded AFTER tmux-statusline-gruvbox.**
 Hit `prefix + I` to fetch the plugin and source it.
 
+You also need a [Nerd Font](https://www.nerdfonts.com/), because this theme is using custom status indicator prompts.
+If you can't use a Nerd Font (for example in TTY), you can easily change the prompts to your own, as described [here](https://github.com/MunifTanjim/tmux-mode-indicator#configuration-options).
+Just don't forget to define these custom prompts **after** loading this plugin.
+
 ## License
 
 This repo uses [MIT license](LICENSE).
